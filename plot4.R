@@ -11,7 +11,7 @@ png(filename = "plot4.png")
 par(mar = c(5, 5, 2, 2), mfrow = c(2, 2))
 with(data, {
     # top-left plot
-    plot(Date, Global.Active.Power, xlab = "", ylab = "Global Active Power (kilowatts)", type = "l")
+    plot(Date, Global.Active.Power, xlab = "", ylab = "Global Active Power", type = "l")
     
     # top-right plot
     plot(Date, Voltage, xlab = "datetime", ylab = "Voltage", type = "l")
